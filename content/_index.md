@@ -8,6 +8,7 @@ draft: false
     <h1 class="display-3">Sports Massage</h1>
     <p class="lead">We provide professional massage therapy for the treatment of muscles, tendons and ligaments.<p>
     <p class="lead">Sports massage can help with relieving muscle soreness and pain, injury rehabilitation and improving flexibility.</p>
+    <p class="lead">Exciting News! As of Jan 2026 we are moving to a new location at Health & Wellness Hub, 172 Mertyr Road, CF14 1DL!.</p>
     <!-- <p class="lead">Our treatments go full circle as once treatment is complete we provide home work to ensure good muscle balance and improved flexibility.<p> -->
     <p>
         <!-- <a class="btn btn-primary btn-lg" href="/covid-19/" role="button">Book Now</a> -->
