@@ -21,7 +21,7 @@ The clinic is easy to find and has free off-street parking.
 
 ### The Health and Wellness Hub
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.33995909296!2d-3.160155084095402!3d51.48862867963209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cc354695555%3A0xe71ea276e4606f9e!2sThe+Body+Clinic!5e0!3m2!1sen!2suk!4v1544448140564" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.25100476525!2d-3.205119723529999!3d51.508610871813616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1bf39c28fec5%3A0xc72906376f01fbae!2sThe%20Health%20and%20Wellness%20Hub!5e0!3m2!1sen!2sus!4v1766528678844!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 <!--### Cyncoed Clinic -->
 
