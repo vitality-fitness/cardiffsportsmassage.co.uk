@@ -7,7 +7,7 @@ description: Credentials and background for our therapists.
 
 Vitality Fitness is the trading name of Donna Wharton, a personal training and sports massage therapist working in Cardiff, UK.  Donna has been a professional personal trainer since 2004 and sports masseuse since 2008.
 
-<img src="/img/IMG_0461.jpg" class="img-fluid rounded">
+<img src="/img/IMG_0451.jpg" class="img-fluid rounded">
 Donna has provided deep-tissue sports massage for the New Zealand Athletics Team, and the Australian U18 Rugby Union team, as well as a number of local professional and amateur sportsmen and women.
 
 Qualified to NVQ Level 4 in Sports Massage Therapy, Donna is firmly committed to continuous professional development, and has completed training in muscle energy techniques, trigger point techniques, The Vital Shoulder complex, Advanced Soft Tissue techniques and The Vital Nerves masterclass. In the last year, she completed her studies of Human Biology at the Open University, attended the Therapy Expo at the NEC and renewed her first aid qualifications.
