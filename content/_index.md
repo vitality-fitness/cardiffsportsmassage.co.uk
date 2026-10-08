@@ -26,7 +26,7 @@ draft: false
     </div>
     <div class="col-lg-6">
     <h4>Experienced</h4>
-    <p>We have over 10 years in a wide variety of conditions, from aching or tight muscles to specific injuries and pain.</p>
+    <p>We have over 18 years in a wide variety of conditions, from aching or tight muscles to specific injuries and pain.</p>
     <h4>Friendly</h4>
     <p>Our therapist is always warm and welcoming, and you can guarantee a caring experience.</p>
     </div>
