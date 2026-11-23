@@ -20,6 +20,13 @@ We can provide treatment and advice for many conditions, including:
 - Stretching and flexibility advice
 - Kinesiology taping
 
+## If this is why you are coming
+
+- [Neck and shoulder tension](/neck-and-shoulder-massage/) from desk work, including some headaches
+- [Running](/sports-massage-for-runners/), on the road or on the fells
+- [A muscle strain](/muscle-strain-recovery/), once the redness has settled
+- [Feeling tight](/tight-muscles/), when nothing is actually injured
+
 ## Sports massage in north Cardiff
 
 The clinic is at [The Health and Wellness Hub](/about/) on Merthyr Road (CF14 1DL), with free off-street parking. Donna is a Level 4 sports massage therapist and the sole therapist at Vitality Fitness, so you always see the same person.
