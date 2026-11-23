@@ -3,7 +3,7 @@ title: "Buy a Gift Voucher"
 date: 2017-12-04T19:11:11Z
 draft: false
 no_header: true
-description: 30, 45 and 60 minute sports massage gift vouchers for sale.
+description: "Sports massage gift vouchers in Cardiff — 30, 45 or 60 minutes. Buy online for friends, family or runners in South Wales."
 ---
 
 {{< jumbotron title="Gift Vouchers" >}}

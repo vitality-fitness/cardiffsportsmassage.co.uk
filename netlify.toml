@@ -11,3 +11,8 @@
 
 [context.branch-deploy]
   command = "hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+
+[[redirects]]
+  from = "/covid-19/"
+  to = "/faq/"
+  status = 301

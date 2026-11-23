@@ -1,7 +1,7 @@
 ---
 title: "COVID-19 Statement Updated 6th April 2021"
 date: 2017-12-04T20:19:37Z
-draft: false
+draft: true
 description: Statement about the ongoing COVID-19 / Coronavirus condition
 ---
 Following Welsh Government guidance I have been able to re-open the clinic in a full capacity (business as usual) since Monday April 12th. This is both exciting and long awaited news, please book in [here](https://vitfitcdf.as.me/).

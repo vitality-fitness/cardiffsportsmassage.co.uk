@@ -15,8 +15,18 @@ unsafe = false
 
 [menu]
   [[menu.main]]
+    name = "About"
+    identifier = "about"
+
+  [[menu.main]]
     name = "About Us"
     url = "/about/"
+    parent = "about"
+
+  [[menu.main]]
+    name = "Sports Massage"
+    url = "/about-sports-massage/"
+    parent = "about"
 
   [[menu.main]]
     name = "Vouchers"

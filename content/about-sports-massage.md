@@ -2,7 +2,7 @@
 title: "About Sports Massage"
 date: 2017-12-04T21:13:39Z
 draft: false
-description: What you can expect from a sports massage treatment at Vitality Fitness.
+description: "Deep tissue sports massage in Cardiff for pain, injury recovery and flexibility. Learn what to expect and which conditions we treat."
 ---
 
 We provide a friendly and professional deep-tissue sports massage service in Cardiff.  We are consistently highly-rated by our many [satisfied customers](/reviews).

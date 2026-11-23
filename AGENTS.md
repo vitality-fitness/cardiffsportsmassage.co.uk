@@ -21,7 +21,9 @@ Layout lookup is project first, then theme. If `layouts/partials/banner.html` ex
 
 Pages are Markdown plus shortcodes in `layouts/shortcodes/`. Do not put raw HTML in `content/` — `markup.goldmark.renderer.unsafe` is `false` in `config.toml`.
 
-Treatment prices, durations, and Acuity URLs live in `data/treatments.yaml`. Customer review text lives in `data/reviews.yaml`. Homepage feature blurbs live in `data/homefeatures.yaml`. The prices-page consultation notice is in `data/messages.yaml`. A price or booking link change starts in the treatments file, not in repeated HTML. Shortcodes read these files via `hugo.Data`.
+Treatment prices, durations, and Acuity URLs live in `data/treatments.yaml`. Customer review text lives in `data/reviews.yaml`. Homepage feature blurbs live in `data/homefeatures.yaml`. The prices-page consultation notice is in `data/messages.yaml`. FAQ copy lives in `data/faq.yaml` and renders via the `faq-list` shortcode; set `faqPage: true` on `content/faq.md` for FAQPage JSON-LD. Shortcodes read these files via `hugo.Data`.
+
+Page `description` front matter should mention Cardiff and the service where it helps SEO (~150 characters). Do not add `AggregateRating` schema on the reviews page; Trustpilot and Google links are the source of truth for third-party ratings.
 
 Front matter on existing pages is `title`, `date`, `draft`, and `description`. Match that. Create pages with `hugo new content/<name>.md`, which uses `archetypes/default.md` and starts as `draft: true`. A draft is omitted from the production build. Set `draft: false` only when the page should go live.
 
@@ -33,6 +35,7 @@ The filename is the URL: `content/prices.md` is `/prices/`. Renaming a file chan
 |---|---|---|
 | Home | `content/_index.md` | `/` |
 | About Us | `content/about.md` | `/about/` |
+| Sports Massage | `content/about-sports-massage.md` | `/about-sports-massage/` (child under About in nav) |
 | Vouchers | `content/gift-vouchers.md` | `/gift-vouchers/` |
 | Prices | `content/prices.md` | `/prices/` |
 | Reviews | `content/reviews.md` | `/reviews/` |
@@ -53,7 +56,7 @@ Booking and voucher links (`vitfitcdf.as.me`, Acuity) are external. A price chan
 - `HUGO_VERSION` in `netlify.toml` — stays `0.170.1`; match that version locally; do not change the pin, publish directory, or production build command unless asked
 - A second build system or Hugo modules, unless asked
 
-`netlify.toml` is the Netlify build source of truth. Production runs `hugo --gc --minify` (no `-D`), so drafts stay out of the live site. Deploy previews and branch deploys override `baseURL` with `$DEPLOY_PRIME_URL`.
+`netlify.toml` is the Netlify build source of truth. Production runs `hugo --gc --minify` (no `-D`), so drafts stay out of the live site. Deploy previews and branch deploys override `baseURL` with `$DEPLOY_PRIME_URL`. `content/covid-19.md` stays `draft: true`; Netlify redirects `/covid-19/` to `/faq/`.
 
 ## Verify
 

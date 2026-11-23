@@ -1,0 +1,4 @@
+{{- range hugo.Data.faq }}
+<h2 class="h4 mt-4">{{ .question }}</h2>
+{{ .answer | markdownify }}
+{{- end }}
