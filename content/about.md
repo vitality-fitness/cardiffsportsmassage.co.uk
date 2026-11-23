@@ -7,7 +7,7 @@ description: "Meet Donna Wharton, Level 4 sports massage therapist in Cardiff. C
 
 Vitality Fitness is the trading name of Donna Wharton, a personal training and sports massage therapist working in Cardiff, UK.  Donna has been a professional personal trainer since 2004 and sports masseuse since 2008.
 
-{{< photo src="/img/IMG_0451.jpg" alt="Donna Wharton" >}}
+{{< photo src="/img/IMG_0451.jpg" alt="Donna Wharton, sports massage therapist in Cardiff" width="1200" height="901" >}}
 
 Donna has provided deep-tissue sports massage for the New Zealand Athletics Team, and the Australian U18 Rugby Union team, as well as a number of local professional and amateur sportsmen and women.
 

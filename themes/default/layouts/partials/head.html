@@ -9,11 +9,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {{ if .Params.seoNoIndex }}<meta name="robots" content="noindex, follow">{{ end }}
-  <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-M9LWQ5S');</script>
   <!-- End Google Tag Manager -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One|Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Patua+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet">
   <title>{{ $seoTitle }}</title>
   <link rel="canonical" href="{{ .Permalink }}">
   <meta property="og:title" content="{{ $seoTitle }}">
@@ -54,7 +56,8 @@
     integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/narrow.css">
   <link rel="stylesheet" href="/open-iconic/font/css/open-iconic-bootstrap.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></noscript>
 
   <script type="application/ld+json">
     {
@@ -102,8 +105,4 @@
   {{ if and (not .IsHome) }}{{ partial "breadcrumb-schema.html" . }}{{ end }}
   {{ if .Params.faqPage }}{{ partial "faq-schema.html" . }}{{ end }}
   {{ if .Params.pricesPage }}{{ partial "prices-schema.html" . }}{{ end }}
-  <!-- TrustBox script -->
-  <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
-    async></script>
-  <!-- End TrustBox script -->
 </head>

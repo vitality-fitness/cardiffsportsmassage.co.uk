@@ -72,3 +72,5 @@ hugo server -D --bind 127.0.0.1 --port 1313
 Open the changed URL and one other page that shares the layout. `single.html` wraps every content page. For CSS, header, or footer changes, check a desktop width and a phone width.
 
 One task, one layer. A price change stays in `data/treatments.yaml`. A nav change is `config.toml`. A footer change is `themes/default/layouts/partials/footer.html`.
+
+Performance: no Facebook or Twitter SDKs — footer share links use intent URLs only. Trustpilot loads in the footer next to its widget. Fonts use `display=swap`. Content photos use the `photo` shortcode with descriptive `alt`, `width`/`height`, lazy loading, and a matching `.webp` beside the JPEG in `static/img/`. When creating WebP from camera JPEGs, apply EXIF orientation first (e.g. Pillow `ImageOps.exif_transpose`) — `cwebp` alone can ignore rotation metadata.
