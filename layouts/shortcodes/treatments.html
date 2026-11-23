@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    {{- range .Site.Data.treatments }}
+    <div class="card mb-4 box-shadow">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">{{ .name }}</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">{{ .price }}</h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          {{- range .bullets }}
+          <li>{{ . }}</li>
+          {{- end }}
+        </ul>
+        <a class="btn btn-lg btn-block btn-primary" href="{{ .book_url }}">Book Now</a>
+        <a class="btn btn-lg btn-block btn-info" href="{{ .voucher_url }}">Buy Gift Voucher</a>
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</div>

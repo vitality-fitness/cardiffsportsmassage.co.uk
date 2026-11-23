@@ -5,7 +5,7 @@ theme = "default"
 enableRobotsTXT = true
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = false
 
 [params]
   brandName = "Vitality Fitness"

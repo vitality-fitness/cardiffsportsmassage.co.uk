@@ -1,0 +1,27 @@
+- name: "30 Minutes"
+  price: "£35"
+  price_label: "£35.00"
+  bullets:
+    - Ideal for maintenance
+    - Smaller issues
+    - Good for busy people
+  book_url: "https://vitfitcdf.as.me/schedule.php?appointmentType=86484450"
+  voucher_url: "https://app.acuityscheduling.com/catalog.php?owner=14767332&action=addCart&clear=1&id=548607"
+- name: "45 Minutes"
+  price: "£47"
+  price_label: "£47.00"
+  bullets:
+    - More complex issues
+    - Good lunchtime option
+  book_url: "https://vitfitcdf.as.me/schedule.php?appointmentType=86484673"
+  voucher_url: "https://app.acuityscheduling.com/catalog.php?owner=14767332&action=addCart&clear=1&id=548609"
+- name: "60 Minutes"
+  price: "£58"
+  price_label: "£58.00"
+  bullets:
+    - Best value for money
+    - Most popular option
+    - Ideal for initial treatment
+    - Gives time for further soft tissue tests
+  book_url: "https://vitfitcdf.as.me/schedule.php?appointmentType=86484686"
+  voucher_url: "https://app.acuityscheduling.com/catalog.php?owner=14767332&action=addCart&clear=1&id=548610"

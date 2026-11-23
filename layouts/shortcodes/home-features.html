@@ -1,0 +1,10 @@
+<div class="row marketing">
+{{- range .Site.Data.homefeatures.columns }}
+  <div class="col-lg-6">
+  {{- range .items }}
+    <h4>{{ .title }}</h4>
+    <p>{{ .text }}</p>
+  {{- end }}
+  </div>
+{{- end }}
+</div>

@@ -1,0 +1,12 @@
+{{- range .Site.Data.reviews }}
+<blockquote class="blockquote">
+<span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span>
+{{- with .video }}
+<iframe width="560" height="315" src="{{ . }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{- end }}
+{{- range .paragraphs }}
+<p class="mb-0">{{ . }}</p>
+{{- end }}
+<footer class="blockquote-footer">{{ .author }}</footer>
+</blockquote>
+{{- end }}
