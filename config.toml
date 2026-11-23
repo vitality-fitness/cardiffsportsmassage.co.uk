@@ -8,7 +8,7 @@ enableRobotsTXT = true
 unsafe= true
 
 [params]
-  brandName = "Vitality Fitness
+  brandName = "Vitality Fitness"
 
 [menu]
   [[menu.main]]
