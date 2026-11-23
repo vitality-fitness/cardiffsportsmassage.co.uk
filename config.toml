@@ -1,7 +1,7 @@
 baseURL = "https://www.cardiffsportsmassage.co.uk/"
 languageCode = "en-gb"
 title = "Sports Massage Cardiff | Deep Tissue & Muscle Therapy | Vitality Fitness"
-theme = "vitality-fitness"
+theme = "default"
 enableRobotsTXT = true
 
 [markup.goldmark.renderer]
