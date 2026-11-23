@@ -4,4 +4,7 @@ date: 2017-12-04T20:19:37Z
 draft: false
 description: "Vitality Fitness is a sports massage therapist serving Cardiff and the surrounding area."
 layout: gcr
+seoNoIndex: true
+sitemap:
+  disable: true
 ---

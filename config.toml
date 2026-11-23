@@ -9,6 +9,9 @@ unsafe = false
 
 [params]
   brandName = "Vitality Fitness"
+  ogImage = "/img/IMG_0451.jpg"
+  ogImageWidth = 3088
+  ogImageHeight = 2320
 
 [menu]
   [[menu.main]]

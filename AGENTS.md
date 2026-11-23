@@ -25,6 +25,8 @@ Treatment prices, durations, and Acuity URLs live in `data/treatments.yaml`. Cus
 
 Front matter on existing pages is `title`, `date`, `draft`, and `description`. Match that. Create pages with `hugo new content/<name>.md`, which uses `archetypes/default.md` and starts as `draft: true`. A draft is omitted from the production build. Set `draft: false` only when the page should go live.
 
+Confirmation and utility pages (contact received, order received/cancelled, GCR opt-in) use `seoNoIndex: true` and `sitemap: disable: true` so they are not indexed. Default share image and OG dimensions live under `[params]` in `config.toml`.
+
 The filename is the URL: `content/prices.md` is `/prices/`. Renaming a file changes the public URL.
 
 | Label | File | URL |

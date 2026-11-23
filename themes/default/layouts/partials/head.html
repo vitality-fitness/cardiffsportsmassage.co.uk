@@ -1,24 +1,31 @@
 <head>
+  {{- $seoTitle := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Params.brandName) -}}
+  {{- $treatments := hugo.Data.treatments -}}
+  {{- $priceMin := (index $treatments 0).price -}}
+  {{- $priceMax := (index $treatments (sub (len $treatments) 1)).price -}}
+  {{- $ogImage := .Site.Params.ogImage | absURL -}}
+  {{- $logo := "/img/logo.jpg" | absURL -}}
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {{ if .Params.seoNoIndex }}<meta name="robots" content="noindex, follow">{{ end }}
   <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-M9LWQ5S');</script>
   <!-- End Google Tag Manager -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Patua+One|Material+Icons" rel="stylesheet">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Params.brandName }}{{ end }}</title>
+  <title>{{ $seoTitle }}</title>
   <link rel="canonical" href="{{ .Permalink }}">
-  <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:image" content="http://www.cardiffsportsmassage.co.uk/img/logo.jpg">
-  <meta property="og:image:width" content="162">
-  <meta property="og:image:height" content="82">
+  <meta property="og:title" content="{{ $seoTitle }}">
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:image:width" content="{{ .Site.Params.ogImageWidth }}">
+  <meta property="og:image:height" content="{{ .Site.Params.ogImageHeight }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@VitFitCdf">
-  <meta name="twitter:title" content="{{ .Title }}">
-  <meta name="twitter:image" content="http://www.cardiffsportsmassage.co.uk/img/logo.jpg">
+  <meta name="twitter:title" content="{{ $seoTitle }}">
+  <meta name="twitter:image" content="{{ $ogImage }}">
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -51,25 +58,32 @@
 
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@type": "HealthAndBeautyBusiness",
       "currenciesAccepted": "GBP",
       "paymentAccepted": "Cash, Credit Card",
-      "priceRange": "£25-£40",
+      "priceRange": "{{ $priceMin }}-{{ $priceMax }}",
       "telephone": "+442920140069",
       "address": {
+        "@type": "PostalAddress",
         "addressCountry": "GB",
         "addressLocality": "Cardiff",
         "postalCode": "CF23 6BR",
         "streetAddress": "7 Brynderwen Close"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.5086,
+        "longitude": -3.2051
+      },
+      "hasMap": "https://www.google.com/maps/place/The+Health+and+Wellness+Hub/@51.5086109,-3.2051197,17z",
       "openingHours": ["Mo-Fr 09:30-21:00","Sa 09:30-12:00"],
       "name": "Vitality Fitness Sports Massage",
       "description": "Vitality Fitness provides sports massage therapy in Cardiff, UK",
-      "email": "mailto:donna@vitalityfitness.info",
-      "url": "http://cardiffsportsmassage.co.uk/",
-      "image": "http://www.cardiffsportsmassage.co.uk/img/logo.jpg",
-      "logo": "http://www.cardiffsportsmassage.co.uk/img/logo.jpg",
+      "email": "donna@vitalityfitness.info",
+      "url": {{ .Site.BaseURL | jsonify }},
+      "image": {{ $ogImage | jsonify }},
+      "logo": {{ $logo | jsonify }},
       "contactPoint": [{
         "@type": "ContactPoint",
         "telephone": "+442920140069",
