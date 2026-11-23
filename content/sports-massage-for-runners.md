@@ -22,5 +22,5 @@ I usually suggest 45 or 60 minutes for a first visit about a real niggle. A foll
 
 If you are not injured and the legs just feel tight, [tight muscles](/tight-muscles/) explains that visit. Treatment can help you feel looser and move more easily. I will not promise that you will stay free of injury. I will also usually tell you when you can train again and how to resume.
 
-{{< button href="https://vitfitcdf.as.me/schedule.php" class="btn btn-default" >}}Book Now{{< /button >}}
-{{< button href="/prices/" class="btn btn-primary" >}}View Prices{{< /button >}}
+{{< button href="https://vitfitcdf.as.me/schedule.php" class="btn btn-primary" >}}Book Now{{< /button >}}
+{{< button href="/prices/" class="btn btn-secondary" >}}View Prices{{< /button >}}

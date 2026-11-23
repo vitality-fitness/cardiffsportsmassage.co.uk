@@ -18,5 +18,5 @@ If you have just pulled a muscle, wait until it is no longer red. That wait, oft
 
 I will usually send you away with stretches, and with strengthening where it will help.
 
-{{< button href="https://vitfitcdf.as.me/schedule.php" class="btn btn-default" >}}Book Now{{< /button >}}
-{{< button href="/prices/" class="btn btn-primary" >}}View Prices{{< /button >}}
+{{< button href="https://vitfitcdf.as.me/schedule.php" class="btn btn-primary" >}}Book Now{{< /button >}}
+{{< button href="/prices/" class="btn btn-secondary" >}}View Prices{{< /button >}}
