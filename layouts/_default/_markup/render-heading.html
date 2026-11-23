@@ -1,0 +1,6 @@
+{{- $classes := slice -}}
+{{- with .Attributes.class }}{{ $classes = $classes | append . }}{{ end -}}
+{{- if and (eq .Page.RelPermalink "/about-sports-massage/") (eq .Level 2) -}}
+  {{- $classes = $classes | append "h4" "mt-4" -}}
+{{- end -}}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}"{{ with $classes }} class="{{ delimit . " " }}"{{ end }}>{{ .Text | safeHTML }}</h{{ .Level }}>

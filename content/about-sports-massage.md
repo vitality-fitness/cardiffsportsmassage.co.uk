@@ -31,7 +31,7 @@ We can provide treatment and advice for many conditions, including:
 
 The clinic is at [The Health and Wellness Hub](/about/) on Merthyr Road (CF14 1DL), with free off-street parking. Donna is a Level 4 sports massage therapist and the sole therapist at Vitality Fitness, so you always see the same person.
 
-Whether you are managing neck and shoulder tension from desk work, recovering from a running injury, or rehabilitating after sport, Donna can tailor treatment to you. Read answers to common questions on our [FAQ](/faq/) page, see what clients say in our [reviews](/reviews/), or view [treatment prices](/prices/).
+Whether you are managing neck and shoulder tension from desk work, recovering from a running injury, or rehabilitating after a sports injury, Donna can tailor treatment to you. Read answers to common questions on our [FAQ](/faq/) page, see what clients say in our [reviews](/reviews/), or view [treatment prices](/prices/).
 
 ## How much does it cost?
 
