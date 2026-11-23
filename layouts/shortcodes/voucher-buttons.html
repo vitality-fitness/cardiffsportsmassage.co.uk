@@ -1,4 +1,4 @@
-{{- range .Site.Data.treatments }}
+{{- range site.Data.treatments }}
 <a class="btn btn-primary" href="{{ .voucher_url }}" role="button">{{ .name }} (&pound;{{ replace .price_label "£" "" }})</a>
 
 {{- end }}

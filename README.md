@@ -1,1 +1,3 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/48cd2106-75a9-4acf-842b-9a91ac97deea/deploy-status)](https://app.netlify.com/sites/stoic-brattain-5189a0/deploys)
+
+Build locally with [Hugo v0.170.1](https://github.com/gohugoio/hugo/releases/tag/v0.170.1) (match `HUGO_VERSION` in `netlify.toml`). Example: `brew install hugo`, then `hugo --minify` and `hugo server -D --bind 127.0.0.1 --port 1313`.

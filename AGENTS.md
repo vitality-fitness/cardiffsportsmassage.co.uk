@@ -21,7 +21,7 @@ Layout lookup is project first, then theme. If `layouts/partials/banner.html` ex
 
 Pages are Markdown plus shortcodes in `layouts/shortcodes/`. Do not put raw HTML in `content/` — `markup.goldmark.renderer.unsafe` is `false` in `config.toml`.
 
-Treatment prices, durations, and Acuity URLs live in `data/treatments.yaml`. Customer review text lives in `data/reviews.yaml`. Homepage feature blurbs live in `data/homefeatures.yaml`. A price or booking link change starts in the treatments file, not in repeated HTML.
+Treatment prices, durations, and Acuity URLs live in `data/treatments.yaml`. Customer review text lives in `data/reviews.yaml`. Homepage feature blurbs live in `data/homefeatures.yaml`. The prices-page consultation notice is in `data/messages.yaml`. A price or booking link change starts in the treatments file, not in repeated HTML.
 
 Front matter on existing pages is `title`, `date`, `draft`, and `description`. Match that. Create pages with `hugo new content/<name>.md`, which uses `archetypes/default.md` and starts as `draft: true`. A draft is omitted from the production build. Set `draft: false` only when the page should go live.
 
@@ -48,7 +48,7 @@ Booking and voucher links (`vitfitcdf.as.me`, Acuity) are external. A price chan
 - `static/open-iconic/` — vendored icon set, not site content
 - `baseURL` in `config.toml` — production URL
 - `unsafe = false` — do not turn the Goldmark unsafe renderer on; use shortcodes for markup
-- `HUGO_VERSION` in `netlify.toml` — stays `0.69.0`; do not change that pin, the publish directory, or the production build command unless asked
+- `HUGO_VERSION` in `netlify.toml` — stays `0.170.1`; match that version locally; do not change the pin, publish directory, or production build command unless asked
 - A second build system or Hugo modules, unless asked
 
 `netlify.toml` is the Netlify build source of truth. Production runs `hugo --gc --minify` (no `-D`), so drafts stay out of the live site. Deploy previews override `baseURL` with `$DEPLOY_PRIME_URL`.
