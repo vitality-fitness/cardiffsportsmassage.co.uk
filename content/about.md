@@ -3,6 +3,7 @@ title: "About Us"
 date: 2017-12-04T20:19:37Z
 draft: false
 description: "Meet Donna Wharton, Level 4 sports massage therapist in Cardiff. Credentials, insurance and clinic location at the Health and Wellness Hub."
+seoTitle: "About Donna Wharton"
 ---
 
 Vitality Fitness is the trading name of Donna Wharton, a personal training and sports massage therapist working in Cardiff, UK.  Donna has been a professional personal trainer since 2004 and sports masseuse since 2008.
@@ -21,4 +22,4 @@ The clinic is easy to find and has free off-street parking.
 
 ### The Health and Wellness Hub
 
-{{< map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.25100476525!2d-3.205119723529999!3d51.508610871813616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1bf39c28fec5%3A0xc72906376f01fbae!2sThe%20Health%20and%20Wellness%20Hub!5e0!3m2!1sen!2sus!4v1766528678844!5m2!1sen!2sus" >}}
+{{< map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.25100476525!2d-3.20254!3d51.50861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1bf39c28fec5%3A0xc72906376f01fbae!2sThe%20Health%20and%20Wellness%20Hub!5e0!3m2!1sen!2sgb!4v1766528678844!5m2!1sen!2sgb" >}}

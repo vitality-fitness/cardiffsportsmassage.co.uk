@@ -5,9 +5,7 @@
   "name": "Sports massage",
   "description": "Deep tissue sports massage sessions in Cardiff",
   "provider": {
-    "@type": "HealthAndBeautyBusiness",
-    "name": "Vitality Fitness Sports Massage",
-    "url": {{ .Site.BaseURL | jsonify }}
+    "@id": {{ printf "%s#business" .Site.BaseURL | jsonify }}
   },
   "areaServed": {
     "@type": "City",

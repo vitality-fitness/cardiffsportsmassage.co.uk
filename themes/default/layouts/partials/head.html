@@ -1,5 +1,7 @@
 <head>
-  {{- $seoTitle := cond .IsHome .Site.Title (printf "%s | %s" .Title .Site.Params.brandName) -}}
+  {{- $pageTitle := .Params.seoTitle | default .Title -}}
+  {{- $seoTitle := cond .IsHome .Site.Title (printf "%s | %s" $pageTitle .Site.Params.brandName) -}}
+  {{- $businessId := printf "%s#business" .Site.BaseURL -}}
   {{- $treatments := hugo.Data.treatments -}}
   {{- $priceMin := (index $treatments 0).price -}}
   {{- $priceMax := (index $treatments (sub (len $treatments) 1)).price -}}
@@ -63,6 +65,7 @@
     {
       "@context": "https://schema.org",
       "@type": "HealthAndBeautyBusiness",
+      "@id": {{ $businessId | jsonify }},
       "currenciesAccepted": "GBP",
       "paymentAccepted": "Cash, Credit Card",
       "priceRange": "{{ $priceMin }}-{{ $priceMax }}",
@@ -71,16 +74,20 @@
         "@type": "PostalAddress",
         "addressCountry": "GB",
         "addressLocality": "Cardiff",
-        "postalCode": "CF23 6BR",
-        "streetAddress": "7 Brynderwen Close"
+        "postalCode": "CF14 1DL",
+        "streetAddress": "172 Merthyr Road"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 51.5086,
-        "longitude": -3.2051
+        "latitude": 51.50861,
+        "longitude": -3.20254
       },
-      "hasMap": "https://www.google.com/maps/place/The+Health+and+Wellness+Hub/@51.5086109,-3.2051197,17z",
-      "openingHours": ["Mo-Fr 09:30-21:00","Sa 09:30-12:00"],
+      "hasMap": "https://www.google.com/maps/place/The+Health+and+Wellness+Hub/@51.50861,-3.20254,17z",
+      "areaServed": {
+        "@type": "City",
+        "name": "Cardiff"
+      },
+      "openingHours": ["Mo-Fr 09:30-21:00"],
       "name": "Vitality Fitness Sports Massage",
       "description": "Vitality Fitness provides sports massage therapy in Cardiff, UK",
       "email": "donna@vitalityfitness.info",
@@ -98,7 +105,9 @@
         "http://www.vitalityfitness.info/",
         "https://www.facebook.com/VitFitCdf/",
         "https://www.instagram.com/personaltrainerandsporttherapy/",
-        "https://twitter.com/VitFitCdf"
+        "https://twitter.com/VitFitCdf",
+        "https://uk.trustpilot.com/review/www.cardiffsportsmassage.co.uk",
+        "https://thehealthandwellnesshub.co.uk/team/donna-wharton"
       ]
     }
   </script>
