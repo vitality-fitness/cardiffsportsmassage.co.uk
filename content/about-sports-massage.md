@@ -12,20 +12,14 @@ For almost 20 years, we have delivered a wide variety of treatments ranging from
 
 We can provide treatment and advice for many conditions, including:
 
-- Aching & sore neck, shoulders & back
-- Tired muscles
-- Before, during and after special events
-- Injury prevention
-- Injury recovery and rehabilitation
-- Stretching and flexibility advice
-- Kinesiology taping
-
-## People often come in for
-
 - [Neck and shoulder tension](/neck-and-shoulder-massage/) from desk work, including some headaches
-- [Running](/sports-massage-for-runners/) on the road or on the fells
+- [Tight or tired muscles](/tight-muscles/) when nothing is actually injured
 - A [muscle strain](/muscle-strain-recovery/) once the redness has settled
-- [Feeling tight](/tight-muscles/) when nothing is actually injured
+- Before, during and after special events
+- Injury prevention, recovery and rehabilitation
+- Stretching and flexibility advice
+
+We also see [runners](/sports-massage-for-runners/) on the road or on the fells.
 
 ## Sports massage in North Cardiff
 
