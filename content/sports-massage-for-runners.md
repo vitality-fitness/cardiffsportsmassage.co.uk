@@ -6,7 +6,7 @@ description: "Sports massage for runners in Cardiff. Calves and hamstrings for t
 seoTitle: "Sports Massage for Runners in Cardiff"
 ---
 
-I see runners at [The Health and Wellness Hub](/about/) in north Cardiff, whether you are training for a race or running a few times a week.
+I see runners at [The Health and Wellness Hub](/about/) in North Cardiff, whether you are training for a race or running a few times a week.
 
 What needs work depends on the running. Fell and mountain runners most often come in with tight quads. Road runners more often need hamstrings and calves. I choose the work to suit you on the day. I often use trigger point therapy.
 

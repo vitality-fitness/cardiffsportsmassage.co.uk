@@ -8,7 +8,7 @@ sitemap:
 ---
 
 {{< jumbotron title="Sports Massage in Cardiff" >}}
-{{% lead %}}At The Health and Wellness Hub on Merthyr Road in north Cardiff, we provide professional massage therapy for muscles, tendons and ligaments. See our [treatment prices](/prices/) or [learn more about sports massage](/about-sports-massage/).{{% /lead %}}
+{{% lead %}}At The Health and Wellness Hub on Merthyr Road in North Cardiff, we provide professional massage therapy for muscles, tendons and ligaments. See our [treatment prices](/prices/) or [learn more about sports massage](/about-sports-massage/).{{% /lead %}}
 {{% lead %}}Sports massage can help with relieving muscle soreness and pain, injury rehabilitation and improving flexibility.{{% /lead %}}
 {{< button-row >}}
 {{< button href="https://vitfitcdf.as.me/" class="btn btn-primary btn-lg" >}}Book Now{{< /button >}}

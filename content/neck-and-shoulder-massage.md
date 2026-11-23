@@ -6,7 +6,7 @@ description: "Neck and shoulder massage in Cardiff for desk tension and headache
 seoTitle: "Neck and Shoulder Massage in Cardiff"
 ---
 
-I treat neck and shoulder tension at [The Health and Wellness Hub](/about/) on Merthyr Road in north Cardiff. Most of this work is for people who sit at a desk and feel the tightness build through the week. A lot of people also hold stress in their neck and shoulders.
+I treat neck and shoulder tension at [The Health and Wellness Hub](/about/) on Merthyr Road in North Cardiff. Most of this work is for people who sit at a desk and feel the tightness build through the week. A lot of people also hold stress in their neck and shoulders.
 
 The muscles I find tight most often are the upper trapezius, across the top of the shoulder, and levator scapulae, at the side and back of the neck.
 

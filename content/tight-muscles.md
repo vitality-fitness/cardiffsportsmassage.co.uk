@@ -6,7 +6,7 @@ description: "Sports massage in Cardiff if you feel tight but are not injured. S
 seoTitle: "Tight Muscles in Cardiff"
 ---
 
-You do not need to be injured, or an athlete, to book. I see anyone who just feels tight, at [The Health and Wellness Hub](/about/) on Merthyr Road in north Cardiff.
+You do not need to be injured, or an athlete, to book. I see anyone who just feels tight, at [The Health and Wellness Hub](/about/) on Merthyr Road in North Cardiff.
 
 The aim is to help you feel looser and move more easily. I will not promise that regular massage stops injuries. At the end of the session I will tell you whether another visit is worth booking, and when. That gap depends on you. I choose the work to suit you on the day. I often use trigger point therapy.
 
