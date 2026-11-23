@@ -22,7 +22,7 @@ draft: false
     <h4>Flexible</h4>
     <p>Treatment is available at our clinic during the day and in the evening, 6 days a week.</p>
     <h4>Professional</h4>
-    <p>First-time treatments include a consultion to fully understand your individual needs.</p>
+    <p>First-time treatments include a consultation to fully understand your individual needs.</p>
     </div>
     <div class="col-lg-6">
     <h4>Experienced</h4>
