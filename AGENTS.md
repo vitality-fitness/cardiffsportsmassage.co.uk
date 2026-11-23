@@ -25,6 +25,8 @@ Treatment prices, durations, and Acuity URLs live in `data/treatments.yaml`. Cus
 
 Page `description` front matter should mention Cardiff and the service where it helps SEO (~150 characters). Do not add `AggregateRating` schema on the reviews page; Trustpilot and Google links are the source of truth for third-party ratings.
 
+`params.htmlLang` sets the document language on layout shells. Inner pages use `layouts/partials/breadcrumbs.html` and `breadcrumb-schema.html` (not on home). Prices uses `pricesPage: true` for Service/Offer JSON-LD from `treatments.yaml`. Site-wide sitemap defaults sit in `config.toml` `[sitemap]`; home sets `sitemap.priority: 1`. `disableKinds` omits empty taxonomy URLs.
+
 Front matter on existing pages is `title`, `date`, `draft`, and `description`. Match that. Create pages with `hugo new content/<name>.md`, which uses `archetypes/default.md` and starts as `draft: true`. A draft is omitted from the production build. Set `draft: false` only when the page should go live.
 
 Confirmation and utility pages (contact received, order received/cancelled, GCR opt-in) use `seoNoIndex: true` and `sitemap: disable: true` so they are not indexed. Default share image and OG dimensions live under `[params]` in `config.toml`.

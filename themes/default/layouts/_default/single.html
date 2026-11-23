@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.Params.htmlLang | default "en-GB" }}">
   {{ partial "head.html" . }}
   <body>
     {{ partial "googletagmanager.html" . }}
@@ -7,6 +7,7 @@
       {{ partial "header.html" . }}
 
       <main role="main">
+        {{ partial "breadcrumbs.html" . }}
         {{ if not .Params.no_header }}
         <h1>{{ .Title }}</h1>
         {{ end }}

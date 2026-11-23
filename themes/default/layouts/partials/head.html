@@ -99,7 +99,9 @@
       ]
     }
   </script>
+  {{ if and (not .IsHome) }}{{ partial "breadcrumb-schema.html" . }}{{ end }}
   {{ if .Params.faqPage }}{{ partial "faq-schema.html" . }}{{ end }}
+  {{ if .Params.pricesPage }}{{ partial "prices-schema.html" . }}{{ end }}
   <!-- TrustBox script -->
   <script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
     async></script>

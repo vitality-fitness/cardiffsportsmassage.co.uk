@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ .Site.Params.htmlLang | default "en-GB" }}">
   {{ partial "head.html" . }}
   <body>
     {{ partial "googletagmanager.html" . }}

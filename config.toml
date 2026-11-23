@@ -3,6 +3,11 @@ locale = "en-gb"
 title = "Sports Massage Cardiff | Deep Tissue & Muscle Therapy | Vitality Fitness"
 theme = "default"
 enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.7
 
 [markup.goldmark.renderer]
 unsafe = false
@@ -12,6 +17,7 @@ unsafe = false
   ogImage = "/img/IMG_0451.jpg"
   ogImageWidth = 3088
   ogImageHeight = 2320
+  htmlLang = "en-GB"
 
 [menu]
   [[menu.main]]

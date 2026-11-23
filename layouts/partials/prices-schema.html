@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Sports massage",
+  "description": "Deep tissue sports massage sessions in Cardiff",
+  "provider": {
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Vitality Fitness Sports Massage",
+    "url": {{ .Site.BaseURL | jsonify }}
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Cardiff"
+  },
+  "offers": [
+    {{- range $i, $treatment := hugo.Data.treatments -}}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Offer",
+      "name": {{ printf "%s sports massage" $treatment.name | jsonify }},
+      "price": {{ replace $treatment.price_label "£" "" | jsonify }},
+      "priceCurrency": "GBP",
+      "url": {{ $treatment.book_url | jsonify }},
+      "availability": "https://schema.org/InStock"
+    }
+    {{- end }}
+  ]
+}
+</script>

@@ -3,6 +3,8 @@ title: "Welcome"
 date: 2020-04-18T17:32:38+01:00
 draft: false
 description: "Sports massage and deep tissue therapy in Cardiff. Book 30, 45 or 60 minute treatments with an experienced therapist — book online today."
+sitemap:
+  priority: 1
 ---
 
 {{< jumbotron title="Sports Massage" >}}
