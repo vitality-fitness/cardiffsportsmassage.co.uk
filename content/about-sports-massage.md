@@ -42,4 +42,4 @@ Sports massage can cost less than you expect. Our full range of prices is availa
 Donna is the sole sports massage therapist at Vitality Fitness, ensuring you always receive the same consistently excellent service *without* the need for repeated Q & A. You can learn more about Donna's credentials [here](/about/).
 
 {{< button href="https://vitfitcdf.as.me/schedule.php" class="btn btn-primary" >}}Book Now{{< /button >}}
-{{< button href="/gift-vouchers/" class="btn btn-secondary" >}}Buy Gift Voucher{{< /button >}}
+{{< button href="/gift-vouchers/" class="btn btn-info" >}}Buy Gift Voucher{{< /button >}}

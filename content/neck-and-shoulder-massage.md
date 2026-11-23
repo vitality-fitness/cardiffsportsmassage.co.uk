@@ -25,4 +25,4 @@ I usually suggest 45 or 60 minutes for a first visit, which gives time to assess
 I usually send you away with stretches and strengthening that fit what I found. If the tightness is a recent pull rather than desk tension or stress, wait until any redness has settled and read about [massage after a muscle strain](/muscle-strain-recovery/).
 
 {{< button href="https://vitfitcdf.as.me/schedule.php" class="btn btn-primary" >}}Book Now{{< /button >}}
-{{< button href="/prices/" class="btn btn-secondary" >}}View Prices{{< /button >}}
+{{< button href="/prices/" class="btn btn-info" >}}View Prices{{< /button >}}

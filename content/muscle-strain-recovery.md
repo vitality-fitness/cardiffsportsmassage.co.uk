@@ -23,4 +23,4 @@ I usually suggest 45 or 60 minutes for the first visit. A later visit can be sho
 Ongoing desk tension is covered under [neck and shoulder massage](/neck-and-shoulder-massage/). Training tightness that is not a fresh strain is covered under [sports massage for runners](/sports-massage-for-runners/).
 
 {{< button href="https://vitfitcdf.as.me/schedule.php" class="btn btn-primary" >}}Book Now{{< /button >}}
-{{< button href="/prices/" class="btn btn-secondary" >}}View Prices{{< /button >}}
+{{< button href="/prices/" class="btn btn-info" >}}View Prices{{< /button >}}
