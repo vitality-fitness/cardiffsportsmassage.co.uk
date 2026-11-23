@@ -8,7 +8,7 @@ seoTitle: "Sports Massage in Cardiff"
 
 We provide a friendly and professional deep-tissue sports massage service in Cardiff.  We are consistently highly-rated by our many [satisfied customers](/reviews).
 
-For more than 10 years, we have delivered a wide variety of treatments ranging from major sports injuries to work-related neck and shoulder aches.
+For almost 20 years, we have delivered a wide variety of treatments ranging from major sports injuries to work-related neck and shoulder aches.
 
 We can provide treatment and advice for many conditions, including:
 
