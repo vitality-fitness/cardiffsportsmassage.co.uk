@@ -4,6 +4,10 @@ static/.DS_Store
 
 # Hugo
 public
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
 
 # VS Code
 *.code-workspace
