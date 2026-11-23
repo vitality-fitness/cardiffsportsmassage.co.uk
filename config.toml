@@ -7,6 +7,9 @@ enableRobotsTXT = true
 [markup.goldmark.renderer]
 unsafe= true
 
+[params]
+  brandName = "Vitality Fitness
+
 [menu]
   [[menu.main]]
     name = "About Us"
